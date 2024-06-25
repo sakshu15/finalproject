@@ -13,6 +13,11 @@ public class FinalprojectApplication {
 		return "welcome to session";
 		
 	}
+	@GetMapping("/message1")
+	public String getMessage1() {
+		return "welcome to session";
+		
+	}
 	public static void main(String[] args) {
 		SpringApplication.run(FinalprojectApplication.class, args);
 	}
